@@ -1,7 +1,7 @@
 name: test pull request
 # This workflow is triggered on pushes to the repository.
-on: 
-workflow_dispatch:
+on:
+  workflow_dispatch:
 jobs:
   shellcheck:
     name: shellcheck
